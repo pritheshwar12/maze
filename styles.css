@@ -27,14 +27,14 @@ body {
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin:  auto auto 0 auto;
+    margin:  auto auto 20% auto;
     background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
       background-size: 100% ;
 
   }
 
     #mazeCanvas {
-        margin: 0;
+        margin:auto auto auto 20%;
         display: block;
         border: solid 5px black;
 
@@ -109,10 +109,10 @@ select {
     text-align: center;
     height: auto;
     width: auto;
-    margin:  auto auto 0 auto;
+    margin:  auto auto 10px auto;
   }
     #menu{
-        margin: auto auto 0 auto ;
+        margin: auto auto 10px auto ;
 
         box-sizing: border-box;}
 
@@ -206,7 +206,7 @@ select {
  @media only screen and (max-width: 400px) {
 
 .view{
-  margin:0px;
+  margin:auto auto auto 10px auto;
 }
 #mazeContainer {
     position:absolute;
@@ -217,14 +217,14 @@ select {
     opacity: 0;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.30);
-    margin: 0px auto 0 20%;
+    margin: 0px auto 20% 20%;
     background-image: url("https://i.ibb.co/wwV7KVp/maze-bac2.jpg");
       background-size: 100% ;
 
   }
 
     #mazeCanvas {
-        margin:auto auto auto 20%; 
+        margin:auto auto 20% 20%; 
         display: block;
         border: solid 5px black;
 
